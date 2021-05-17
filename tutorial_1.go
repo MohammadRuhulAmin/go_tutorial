@@ -9,8 +9,8 @@ func main(){
 	fmt.Println("this is md ruhul amin")
 	fmt.Println("American International University Bangladesh")
 	fmt.Println("ruhulamin.cs.dev@gmail.com")
-	fmt.Println("01322-352864")
-	
+	fmt.Println("01322-352864") 
+
 
 }
 
