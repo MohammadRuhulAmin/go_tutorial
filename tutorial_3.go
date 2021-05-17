@@ -30,5 +30,8 @@ func main(){
 	// declearing a variable 
 
 	// var variable_name variable_type = "  "
+	
+
+
 
 }
