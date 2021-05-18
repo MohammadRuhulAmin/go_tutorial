@@ -54,6 +54,11 @@ func main() {
 	age := scanner_age.Text()
 	myAge, _ := strconv.ParseInt(age, 10, 64) // ParseInt(variable , which base to convert , integersize 32bit or 64bit)
 	fmt.Printf("%d", myAge)                   // if  the text cannot be converted into integer  , the function strconv.ParseInt() will
-	// retern an error ...
+	// retern an error ... 
+    
+
+
+
+
 
 }
