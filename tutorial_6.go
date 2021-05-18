@@ -34,7 +34,6 @@ func main() {
 	fmt.Printf("Subtruction of %d & %d is %d\n", FirstNumber, SecondNumber, sub)
 	fmt.Printf("Divition of %d & %d is %d\n", FirstNumber, SecondNumber, div)
 	fmt.Printf("Summation of %d & %d is %d\n", FirstNumber, SecondNumber, sum)
-	fmt.Printf("Remainder of %d & %d is  %d \n", FirstNumber, SecondNumber, rem)
-	
+	fmt.Printf("Remainder of %d & %d is  %d \n", FirstNumber, SecondNumber, rem) 
 
 }
