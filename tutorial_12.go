@@ -22,17 +22,15 @@ func main() {
 	var s_arr_5 []int = arr[:3]
 	fmt.Println(s_arr_5)
 
-	fmt.Println(cap(s_arr_5)) // capacity of a slice array to hold the array value  
+	fmt.Println(cap(s_arr_5)) // capacity of a slice array to hold the array value
 
-	// adding element in a slice 
+	// adding element in a slice
 
-	s_arr_6 := append(s_arr_5,101)
-	fmt.Println("After Append of 101 : ",s_arr_6)
-    s_arr_7 := append(s_arr_6,1002)
+	s_arr_6 := append(s_arr_5, 101)
+	fmt.Println("After Append of 101 : ", s_arr_6)
+	s_arr_7 := append(s_arr_6, 1002)
 	fmt.Println("After Append of  1002 : ", s_arr_7)
-	a := make([]int,10)
+	a := make([]int, 10)
 	fmt.Println(a)
-	
-
 
 }
