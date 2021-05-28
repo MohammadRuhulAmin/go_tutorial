@@ -36,6 +36,18 @@ func main(){
 	myMap["code"]="22522"
 	myMap["id"]=2233
 	fmt.Println(myMap) 
+	
+	arr :=[]int{1,2,3,4,5,6}
+	
+
+	for i,value := range arr{
+		fmt.Println(i,value)
+	} 
+
+		brr:= []int{1,2,3,4,5,6,7,8}
+	for x,myval :=range brr{
+		fmt.Println(x,myval*2)
+	}
 
 
 
