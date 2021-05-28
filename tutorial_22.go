@@ -49,6 +49,15 @@ func main(){
 		fmt.Println(x,myval*2)
 	}
 
+	aboutMe := make(map[string]interface{})
+	aboutMe["name"]="ruhulamin"
+	aboutMe["age"]=200
+	aboutMe["email"]="alfa"
+	aboutMe["xd"]=22.030
+
+	for key,val :=  range aboutMe{
+		fmt.Println(key,val)
+	} 
 
 
 
