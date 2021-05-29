@@ -58,6 +58,10 @@ func main(){
 	for key,val :=  range aboutMe{
 		fmt.Println(key,val)
 	} 
+	myIncome := []interface{}{12,12,"asdjfh",225.52}
+	for key,val := range myIncome{
+		fmt.Println(key,val)
+	}
 
 
 
