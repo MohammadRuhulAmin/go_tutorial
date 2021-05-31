@@ -22,6 +22,5 @@ func main() {
 	go saySomeThing("Hi")
 	go saySomeThing("There")
 	wg.Wait()
-	
 
 }
