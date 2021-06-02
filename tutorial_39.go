@@ -23,6 +23,7 @@ func main() {
 		go counting(&val, &wg,&m)
 	}
 	
+
 	wg.Wait()
 	fmt.Println(val) 
 	fmt.Println("More About Mutex:","https://golangdocs.com/mutex-in-golang")
